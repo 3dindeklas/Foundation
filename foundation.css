@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+
+:root {
+  --3dik-purple: #4c325b;
+  --3dik-purple-dark: #26192e;
+  --3dik-yellow: #fbbd30;
+  --3dik-teal: #5ab3b1;
+  --3dik-ink: #261f2c;
+  --3dik-muted: #645c6b;
+  --3dik-line: #e3dfe7;
+  --3dik-pale: #f7f6f9;
+  --3dik-teal-pale: #eaf6f5;
+  --3dik-white: #fff;
+  --3dik-font: "Quicksand", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --3dik-radius-card: 18px;
+  --3dik-radius-button: 12px;
+  --3dik-radius-pill: 999px;
+  --3dik-shadow-card: 0 6px 22px rgb(38 31 44 / 8%);
+  --3dik-focus: 3px solid #258582;
+}
+
+.threediklas {
+  color: var(--3dik-ink);
+  font: 500 1rem/1.65 var(--3dik-font);
+}
+
+.threediklas *,
+.threediklas *::before,
+.threediklas *::after { box-sizing: border-box; }
+
+.threediklas h1,
+.threediklas h2,
+.threediklas h3 {
+  color: var(--3dik-purple-dark);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.threediklas button,
+.threediklas input,
+.threediklas select,
+.threediklas textarea { font: inherit; }
+
+.threediklas :focus-visible {
+  outline: var(--3dik-focus);
+  outline-offset: 3px;
+}
+
+.threediklas .brand-card {
+  border: 1px solid var(--3dik-line);
+  border-radius: var(--3dik-radius-card);
+  background: var(--3dik-white);
+  box-shadow: var(--3dik-shadow-card);
+  padding: 1.25rem;
+}
+
+.threediklas .brand-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  border: 0;
+  border-radius: var(--3dik-radius-button);
+  padding: .7rem 1rem;
+  background: var(--3dik-purple);
+  color: var(--3dik-white);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.threediklas .brand-button:hover { background: var(--3dik-purple-dark); }
+
+.threediklas .brand-button--secondary {
+  border: 1px solid var(--3dik-line);
+  background: var(--3dik-white);
+  color: var(--3dik-purple);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .threediklas *, .threediklas *::before, .threediklas *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    transition-duration: .01ms !important;
+  }
+}

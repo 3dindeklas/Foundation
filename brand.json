@@ -1,0 +1,195 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "3Dindeklas Foundation",
+  "version": "1.0.0",
+  "lastUpdated": "2026-10-05",
+  "source": "Afgeleid uit de bestaande 3Dindeklas website, LayerBeacon printgids en Klipper Print Dashboard. Kleur- en typografietokens zijn overgenomen uit bestaande interfacecode; gebruiksregels zijn de gezamenlijke designrichtlijn.",
+  "brand": {
+    "name": "3Dindeklas",
+    "tagline": "Leren door creëren",
+    "purpose": "Kinderen en leerkrachten laten ontdekken wat ze met techniek, creativiteit en hun eigen ideeën kunnen maken."
+  },
+  "colors": {
+    "brand": {
+      "purple": {
+        "value": "#4C325B",
+        "role": "Primaire merkkleur, koppen en primaire acties"
+      },
+      "purpleDark": {
+        "value": "#26192E",
+        "role": "Donkere tekst, sterke koppen en donkere vlakken"
+      },
+      "teal": {
+        "value": "#5AB3B1",
+        "role": "Ondersteunende merkkleur, focus en positieve interactie"
+      },
+      "yellow": {
+        "value": "#FBBD30",
+        "role": "Accenten, highlights en aandachtspunten"
+      }
+    },
+    "text": {
+      "ink": {
+        "value": "#261F2C",
+        "role": "Standaard lopende tekst"
+      },
+      "muted": {
+        "value": "#645C6B",
+        "role": "Secundaire uitleg"
+      }
+    },
+    "surface": {
+      "white": {
+        "value": "#FFFFFF",
+        "role": "Kaarten en hoofdachtergrond"
+      },
+      "pale": {
+        "value": "#F7F6F9",
+        "role": "Zachte achtergrond"
+      },
+      "tealPale": {
+        "value": "#EAF6F5",
+        "role": "Subtiele tealstatus"
+      },
+      "line": {
+        "value": "#E3DFE7",
+        "role": "Randen en scheidingen"
+      }
+    },
+    "status": {
+      "success": {
+        "value": "#237A57",
+        "role": "Geslaagd of afgerond, altijd met tekst of icoon"
+      },
+      "warning": {
+        "value": "#765100",
+        "role": "Let op of waarschuwing, altijd met tekst of icoon"
+      },
+      "error": {
+        "value": "#A5333A",
+        "role": "Foutmelding, altijd met tekst of icoon"
+      }
+    },
+    "usageRules": [
+      "Gebruik paars als herkenbare primaire kleur, teal als ondersteunende interactiekleur en geel spaarzaam voor nadruk.",
+      "Gebruik tekstkleur met voldoende contrast op het gekozen vlak.",
+      "Gebruik kleur nooit als enige manier om status, categorie of instructie aan te geven.",
+      "Bij drukwerk: test kleuren op de echte printer en behoud leesbaar contrast."
+    ]
+  },
+  "typography": {
+    "fontFamily": "Quicksand, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+    "source": "Bestaande LayerBeacon printgids-CSS",
+    "weights": {
+      "body": 500,
+      "emphasis": 700
+    },
+    "principles": [
+      "Gebruik duidelijke, ronde schreefloze letters.",
+      "Houd lopende tekst ruim en comfortabel leesbaar.",
+      "Maak koppen kort en herkenbaar.",
+      "Gebruik op kleine schermen grotere bedieningsteksten en voldoende regelafstand.",
+      "Voor langere leerlingteksten: korte zinnen, één instructie per stap en concrete werkwoorden."
+    ]
+  },
+  "shape": {
+    "cardRadius": "18px",
+    "buttonRadius": "12px",
+    "pillRadius": "999px",
+    "focusOutline": "3px solid #258582",
+    "principles": [
+      "Zacht afgeronde hoeken",
+      "Rustige randen",
+      "Subtiele schaduw",
+      "Ruimte tussen onderdelen"
+    ]
+  },
+  "components": {
+    "button": {
+      "primary": "Paars vlak met witte tekst; label benoemt de actie.",
+      "secondary": "Wit of licht vlak met paarse tekst en zichtbare rand.",
+      "minimumTouchTarget": "44x44 CSS pixels"
+    },
+    "card": {
+      "surface": "white",
+      "border": "1px solid #E3DFE7",
+      "radius": "18px",
+      "shadow": "0 6px 22px rgba(38,31,44,0.08)",
+      "interaction": "Toon geselecteerde, actieve of beschikbare staat duidelijk."
+    },
+    "status": {
+      "pattern": "Gebruik korte tekst en optioneel een icoon; kleur ondersteunt de betekenis."
+    },
+    "navigation": {
+      "pattern": "Gebruik duidelijke Nederlandse labels, zichtbare actieve staat en voorspelbare volgorde."
+    },
+    "selectionDialog": {
+      "pattern": "Bij kleine, vaste keuzes (zoals A–Z) gebruik je een overzichtelijke popup met grote afzonderlijke knoppen, geen compacte dropdown. Toon geselecteerde keuze en een duidelijke bevestigingsactie."
+    },
+    "printerSelection": {
+      "pattern": "Toon printers als grote aanraakbare kaarten. Laat naam, beschikbaarheid en relevante status direct zien. Maak de vervolgstap pas actief als de printer klaar is."
+    }
+  },
+  "digital": {
+    "responsive": "Begin bij mobiel en iPad. Houd content gecentreerd met een leesbare maximale breedte.",
+    "touchTargetMinPx": 44,
+    "focusVisible": true,
+    "safeAreas": "Respecteer iOS safe areas en viewport hoogte.",
+    "motion": "Gebruik rustige, korte bewegingen; voorkom animatie die aandacht afleidt."
+  },
+  "print": {
+    "principles": [
+      "Gebruik dezelfde paarse, teal en gele basis, maar controleer contrast op papier.",
+      "Werk met duidelijke koppen, korte tekstblokken en één opdracht per stap.",
+      "Gebruik kleur samen met tekst, vorm of symbool zodat alles ook zonder kleur duidelijk blijft.",
+      "Plaats geen kleine, lichte tekst op gekleurde vlakken."
+    ]
+  },
+  "voice": {
+    "traits": [
+      "persoonlijk",
+      "praktisch",
+      "toegankelijk",
+      "enthousiast zonder overdrijving",
+      "professioneel"
+    ],
+    "rules": [
+      "Spreek de lezer direct aan en schrijf actief.",
+      "Leg uit wat iemand gaat doen én wat diegene leert.",
+      "Gebruik concrete voorbeelden uit de klas en het maakproces.",
+      "Gebruik gewone Nederlandse woorden; licht een technische term kort toe.",
+      "Houd stappen kort en logisch.",
+      "Laat ruimte voor proberen, fouten maken en eigen ideeën.",
+      "Schrijf voor de doelgroep: begrijpelijk voor kinderen en bruikbaar voor leerkrachten."
+    ],
+    "avoid": [
+      "loze superlatieven",
+      "vage marketingclaims",
+      "lange zinnen",
+      "onnodig jargon",
+      "onpersoonlijke of afstandelijke toon"
+    ]
+  },
+  "examples": {
+    "approvedPhrases": [
+      "Leren door creëren",
+      "Van idee naar ontwerp",
+      "Kies een printer",
+      "Start je print",
+      "Probeer het zelf"
+    ],
+    "buttonLabels": [
+      "Kies een printer",
+      "Kies een letter",
+      "Printen maar",
+      "Terug naar overzicht"
+    ],
+    "instructionPattern": "Korte uitleg. Daarna één concrete handeling per stap."
+  },
+  "implementation": {
+    "cssFile": "https://3dindeklas.github.io/Foundation/foundation.css",
+    "jsonFile": "https://raw.githubusercontent.com/3dindeklas/Foundation/main/brand.json",
+    "markdownFile": "https://raw.githubusercontent.com/3dindeklas/Foundation/main/style-guide.md",
+    "versioning": "SemVer: patch voor verduidelijking, minor voor nieuwe optionele regels of tokens, major voor breaking changes."
+  }
+}

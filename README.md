@@ -1,4 +1,4 @@
-# 3Dindeklas Foundation
+# 3Dindeklas Foundation 
 
 De centrale design- en contentreferentie voor digitale producten, lesmateriaal en communicatie van 3Dindeklas.
 

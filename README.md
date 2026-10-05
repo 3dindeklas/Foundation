@@ -9,6 +9,8 @@ De centrale design- en contentreferentie voor digitale producten, lesmateriaal e
 - [CSS-tokens](https://3dindeklas.github.io/Foundation/foundation.css)
 - [Volledige regels in Markdown](https://raw.githubusercontent.com/3dindeklas/Foundation/main/style-guide.md)
 
+De JSON en Markdown zijn direct als publieke bron beschikbaar. Voor de interactieve webpagina moet GitHub Pages eenmalig worden aangezet: open **Settings → Pages** in deze repository en kies **GitHub Actions** als bron bij **Build and deployment**. Daarna publiceert de workflow automatisch bij elke wijziging op `main`.
+
 Voor nieuwe AI- of codeprojecten:
 
 ```text
@@ -28,4 +30,4 @@ De JSON is de bron voor machineleesbare waarden. De Markdown beschrijft hoe je d
 
 ## Bijdragen
 
-Werk tokens eerst in `brand.json` bij, synchroniseer `foundation.css` en pas voorbeelden en uitleg aan. Houd versie en wijzigingsdatum bij. De GitHub Pages workflow publiceert wijzigingen vanaf `main`.
+Werk tokens eerst in `brand.json` bij, synchroniseer `foundation.css` en pas voorbeelden en uitleg aan. Houd versie en wijzigingsdatum bij.

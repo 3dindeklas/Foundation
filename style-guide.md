@@ -1,6 +1,6 @@
 # 3Dindeklas — stijlguide
 
-**Versie 1.0.0 · 5 oktober 2026**
+**Versie 1.1.0 · 6 oktober 2026**
 
 Deze gids is het vaste vertrekpunt voor nieuwe apps, lesdocumenten, handleidingen, presentaties en marketingmateriaal van 3Dindeklas.
 

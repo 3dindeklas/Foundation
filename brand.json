@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "3Dindeklas Foundation",
-  "version": "1.0.0",
-  "lastUpdated": "2026-10-05",
+  "version": "1.1.0",
+  "lastUpdated": "2026-10-06",
   "source": "Afgeleid uit de bestaande 3Dindeklas website, LayerBeacon printgids en Klipper Print Dashboard. Kleur- en typografietokens zijn overgenomen uit bestaande interfacecode; gebruiksregels zijn de gezamenlijke designrichtlijn.",
   "brand": {
     "name": "3Dindeklas",
@@ -128,6 +128,15 @@
     },
     "printerSelection": {
       "pattern": "Toon printers als grote aanraakbare kaarten. Laat naam, beschikbaarheid en relevante status direct zien. Maak de vervolgstap pas actief als de printer klaar is."
+    },
+    "brandHeader": {
+      "background": "#4C325B",
+      "borderBottom": "4px solid #FBBD30",
+      "desktopMinHeight": "100px",
+      "contentMaxWidth": "1320px",
+      "logo": "58x70px; align left",
+      "title": "LEREN DOOR CREËREN above page title; separated from logo by a light divider",
+      "siteLink": "Right aligned link to https://www.3dindeklas.nl/"
     }
   },
   "digital": {
@@ -190,6 +199,80 @@
     "cssFile": "https://3dindeklas.github.io/Foundation/foundation.css",
     "jsonFile": "https://raw.githubusercontent.com/3dindeklas/Foundation/main/brand.json",
     "markdownFile": "https://raw.githubusercontent.com/3dindeklas/Foundation/main/style-guide.md",
-    "versioning": "SemVer: patch voor verduidelijking, minor voor nieuwe optionele regels of tokens, major voor breaking changes."
+    "versioning": "SemVer: patch voor verduidelijking, minor voor nieuwe optionele regels of tokens, major voor breaking changes.",
+    "logoFile": "https://3dindeklas.github.io/Foundation/assets/logo-3dindeklas.png"
+  },
+  "logo": {
+    "asset": "https://3dindeklas.github.io/Foundation/assets/logo-3dindeklas.png",
+    "file": "assets/logo-3dindeklas.png",
+    "altText": "3dindeklas",
+    "link": "https://www.3dindeklas.nl/",
+    "rules": [
+      "Gebruik het officiële logo en behoud de verhouding.",
+      "Verander logo-kleuren niet en zet het op een achtergrond met voldoende contrast.",
+      "Gebruik geen nagetekende of vervormde varianten."
+    ]
+  },
+  "header": {
+    "standard": "LayerBeacon",
+    "background": "#4C325B",
+    "bottomBorder": "#FBBD30",
+    "desktopMinHeight": "100px",
+    "maxWidth": "1320px",
+    "logoSize": "58x70px",
+    "logoPlacement": "Links; klikbaar naar 3dindeklas.nl",
+    "titleBlock": {
+      "eyebrow": "LEREN DOOR CREËREN",
+      "divider": "1px solid rgba(255,255,255,0.22)",
+      "title": "Paginanaam"
+    },
+    "externalLink": {
+      "label": "Naar 3dindeklas.nl",
+      "placement": "Rechts uitgelijnd"
+    },
+    "mobile": "Verklein de logo- en titelruimte, houd naam en link leesbaar, respecteer veilige schermranden.",
+    "components": [
+      "site-header",
+      "header-inner",
+      "brand",
+      "header-title",
+      "header-link"
+    ]
+  },
+  "layout": {
+    "maxContentWidth": "1320px",
+    "principles": [
+      "Gebruik duidelijke secties en een logische koppenhiërarchie.",
+      "Houd tekst op een comfortabele leesbreedte.",
+      "Gebruik inhoudsnavigatie voor langere handleidingen.",
+      "Pas kolommen aan voor telefoon en iPad.",
+      "Laat voldoende witruimte tussen onderdelen."
+    ]
+  },
+  "imagery": {
+    "principles": [
+      "Kies beeld dat iets uitlegt of het maakproces zichtbaar maakt.",
+      "Gebruik herkenbare foto's uit de klas of van materialen als dat de uitleg helpt.",
+      "Gebruik eenvoudige illustraties met duidelijke vormen.",
+      "Gebruik de originele logo- en mascottebestanden zonder vervormen.",
+      "Schrijf alternatieve tekst voor betekenisvolle beelden."
+    ]
+  },
+  "iconography": {
+    "principles": [
+      "Kies eenvoudige en consistente iconen.",
+      "Gebruik iconen ter ondersteuning van tekst.",
+      "Laat belangrijke acties nooit alleen door een icoon uitleggen."
+    ]
+  },
+  "accessibility": {
+    "principles": [
+      "Zorg voor voldoende tekstcontrast op elk achtergrondvlak.",
+      "Maak focus zichtbaar voor toetsenbordgebruik.",
+      "Gebruik beschrijvende labels voor links, knoppen en invoervelden.",
+      "Gebruik nooit alleen kleur als uitleg voor status of categorie.",
+      "Respecteer voorkeuren voor minder beweging.",
+      "Maak belangrijke interacties prettig bedienbaar met aanraking."
+    ]
   }
 }

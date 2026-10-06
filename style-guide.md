@@ -12,6 +12,20 @@ Deze gids is het vaste vertrekpunt voor nieuwe apps, lesdocumenten, handleidinge
 
 De basiskleuren en typografie komen uit de bestaande 3Dindeklas printgids-interface (LayerBeacon). De voorbeelden sluiten ook aan op het Klipper Print Dashboard en de 3Dindeklas website. Gebruik deze waarden als bestaande huisstijl. Richtlijnen voor contrast, toegankelijkheid, componenten en copy maken de stijl toepasbaar in nieuwe media.
 
+## Logo en vaste header
+
+Gebruik het officiële 3Dindeklas-logo uit `assets/logo-3dindeklas.png`. Link het logo naar [3dindeklas.nl](https://www.3dindeklas.nl/). Trek het logo niet uit verhouding, verander de kleuren niet en plaats het niet op een achtergrond waar het onvoldoende zichtbaar is.
+
+Voor apps en handleidingen is de LayerBeacon-header de standaard:
+
+- Een paarse balk met een smalle gele onderrand.
+- Het logo links, ongeveer 58 × 70 px op desktop en iets kleiner op mobiel.
+- Naast het logo staat eerst **LEREN DOOR CREËREN**, daarna de naam van de pagina.
+- Een dunne lichte scheidingslijn maakt de overgang van logo naar titel duidelijk.
+- Een link naar 3dindeklas.nl staat rechts.
+- Houd alles binnen een gecentreerde breedte van maximaal 1320 px.
+- Op mobiel blijven logo, paginatitel en link leesbaar; de header wordt compacter.
+
 ## Visuele stijl
 
 De uitstraling is warm, helder, vriendelijk en praktisch. Het moet uitnodigen om iets uit te proberen, terwijl informatie rustig en professioneel blijft.
@@ -94,16 +108,28 @@ Schrijf persoonlijk, menselijk en professioneel. Laat zien wat er in de klas geb
 - Gebruik “Leren door creëren” als merkregel waar die logisch past.
 - Vermijd overdreven superlatieven, holle claims en onnodig jargon.
 
+## Beeld, iconen en pagina-indeling
+
+Kies beeld dat iets uitlegt: een materiaal, ontwerpstap, prototype of moment uit de klas. Gebruik echte foto’s waar ze de uitleg geloofwaardiger of duidelijker maken. Illustraties zijn vriendelijk en eenvoudig, met duidelijke vormen. Filo kan uitleg ondersteunen waar dat logisch is, maar hoeft niet op ieder materiaal te staan.
+
+Gebruik de originele logo- en mascottebestanden. Vervorm ze niet en teken het woordmerk niet na. Kies eenvoudige, consistente iconen en geef belangrijke acties altijd ook een tekstlabel. Geef betekenisvolle afbeeldingen een korte alternatieve tekst; decoratieve afbeeldingen mogen een lege alternatieve tekst hebben.
+
+Bouw pagina’s op met een duidelijke koppenhiërarchie, herkenbare secties en genoeg witruimte. Voor langere handleidingen werkt een inhoudsnavigatie met genummerde onderwerpen goed. Houd content op een comfortabele leesbreedte en pas kolommen aan voor telefoon en iPad.
+
+## Toegankelijkheid
+
+Zorg voor voldoende contrast tussen tekst en achtergrond. Maak focus zichtbaar wanneer iemand met een toetsenbord navigeert. Gebruik beschrijvende knoppen en links, labels bij invoervelden en bied nooit alleen kleur als uitleg voor een status of keuze. Ondersteun de voorkeur voor minder beweging en zorg dat interactieve onderdelen ook met aanraking goed werken.
+
 ## Snelle controle
 
 Voordat je iets afrondt, controleer:
 
-- Is de paarse, teal en gele basis herkenbaar toegepast?
+- Is de paarse header met het officiële logo en de gele onderrand goed toegepast?\n- Is de paarse, teal en gele basis herkenbaar toegepast?
 - Is tekst makkelijk te lezen en heeft die voldoende contrast?
 - Is duidelijk wat de gebruiker of leerling als volgende stap kan doen?
 - Werkt de belangrijkste interactie goed op telefoon of iPad?
 - Zijn knoppen groot genoeg en zijn statussen ook met woorden herkenbaar?
-- Past de toon bij 3Dindeklas: toegankelijk, praktisch, persoonlijk en professioneel?
+- Zijn beelden, iconen en eventuele mascottes functioneel en netjes gebruikt?\n- Is het materiaal leesbaar en bedienbaar met voldoende contrast en zichtbare focus?\n- Past de toon bij 3Dindeklas: toegankelijk, praktisch, persoonlijk en professioneel?
 - Is de informatie bruikbaar voor de doelgroep waarvoor dit materiaal bedoeld is?
 
 ## Gebruik in nieuwe projecten

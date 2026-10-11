@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "3Dindeklas Foundation",
-  "version": "1.1.0",
-  "lastUpdated": "2026-10-06",
+  "version": "1.2.0",
+  "lastUpdated": "2026-10-11",
   "source": "Afgeleid uit de bestaande 3Dindeklas website, LayerBeacon printgids en Klipper Print Dashboard. Kleur- en typografietokens zijn overgenomen uit bestaande interfacecode; gebruiksregels zijn de gezamenlijke designrichtlijn.",
   "brand": {
     "name": "3Dindeklas",
@@ -200,7 +200,8 @@
     "jsonFile": "https://raw.githubusercontent.com/3dindeklas/Foundation/main/brand.json",
     "markdownFile": "https://raw.githubusercontent.com/3dindeklas/Foundation/main/style-guide.md",
     "versioning": "SemVer: patch voor verduidelijking, minor voor nieuwe optionele regels of tokens, major voor breaking changes.",
-    "logoFile": "https://3dindeklas.github.io/Foundation/assets/logo-3dindeklas.png"
+    "logoFile": "https://3dindeklas.github.io/Foundation/assets/logo-3dindeklas.png",
+    "pdfGuidance": "https://raw.githubusercontent.com/3dindeklas/Foundation/main/style-guide.md#pdf-documenten-en-werkbladen"
   },
   "logo": {
     "asset": "https://3dindeklas.github.io/Foundation/assets/logo-3dindeklas.png",
@@ -274,5 +275,88 @@
       "Respecteer voorkeuren voor minder beweging.",
       "Maak belangrijke interacties prettig bedienbaar met aanraking."
     ]
+  },
+  "documents": {
+    "pdf": {
+      "reference": "Creality_Hi_Combo_Schoolhandleiding.pdf",
+      "page": {
+        "format": "A4 portrait",
+        "dimensions": "210x297mm",
+        "sideMargins": "18mm",
+        "spacingScalePt": [
+          4,
+          8,
+          12,
+          16,
+          24
+        ],
+        "header": "Purple running header with original logo, document title and audience; thin yellow rule",
+        "footer": "Light divider, 3dindeklas brand line, school year or version, circular page number"
+      },
+      "typography": {
+        "family": "Quicksand",
+        "weights": {
+          "body": "Medium 500",
+          "emphasis": "Bold 700"
+        },
+        "scale": {
+          "documentHeader": "14pt bold",
+          "pageTitle": "19-23pt bold",
+          "subheading": "12-14pt bold",
+          "body": "10-11pt; 11pt preferred for learner worksheets",
+          "tableAndCallout": "9-10pt; 8.5pt only for short labels",
+          "footer": "8-9pt"
+        },
+        "lineSpacing": "1.4-1.55"
+      },
+      "colors": {
+        "purple": "#4C325B",
+        "yellow": "#FBBD30",
+        "teal": "#5AB3B1",
+        "ink": "#261F2C",
+        "pale": "#F7F6F9",
+        "line": "#E3DFE7",
+        "rules": [
+          "Use dark purple text on yellow.",
+          "Use teal as a fine divider or secondary note, not as small text on white.",
+          "Verify every PDF in grayscale."
+        ]
+      },
+      "pageStructure": [
+        "Short introduction before the first useful section; short guides do not require a separate cover.",
+        "Chapter title in a yellow band with a purple numbered badge.",
+        "Use numbered actionable steps, concise tables and short callouts.",
+        "Keep the fixed header, footer and page numbering in consistent positions."
+      ],
+      "worksheet": {
+        "structure": [
+          "What will the learner make or discover?",
+          "What will the learner learn?",
+          "One numbered task per block",
+          "Answer area matched to the expected response",
+          "Short reflection or next step when useful"
+        ],
+        "answerSpace": {
+          "choice": "4-6mm per choice; 8-12mm between choices",
+          "shortAnswer": "2-3 lines; 20-30mm high",
+          "explanation": "4-6 lines; 40-60mm high",
+          "drawing": "65-90mm box",
+          "reflection": "2-3 lines per question"
+        },
+        "rules": [
+          "Do not split a prompt from its answer area across pages.",
+          "Use larger response areas and writing lines for younger learners.",
+          "Use name, class and date fields only when the worksheet will be collected."
+        ]
+      },
+      "production": [
+        "Embed Quicksand.",
+        "Keep PDF text selectable and searchable.",
+        "Use raster images at approximately 300dpi at final size.",
+        "Check one page at actual A4 size and print a grayscale proof.",
+        "Check page breaks, tables, headers, footers, version, school year and response areas.",
+        "Use semantic headings and alternative text where supported."
+      ]
+    }
   }
 }

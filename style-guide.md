@@ -1,6 +1,6 @@
 # 3Dindeklas — stijlguide
 
-**Versie 1.1.0 · 6 oktober 2026**
+**Versie 1.2.0 · 11 oktober 2026**
 
 Deze gids is het vaste vertrekpunt voor nieuwe apps, lesdocumenten, handleidingen, presentaties en marketingmateriaal van 3Dindeklas.
 
@@ -98,6 +98,100 @@ Een passende basisstructuur is:
 
 Gebruik afbeeldingen als ze iets uitleggen of voordoen. Geef diagrammen en kleurcodes ook een tekstlabel, zodat ze niet alleen op kleur herkenbaar zijn. Houd veiligheid en materiaalgebruik zichtbaar wanneer dat relevant is.
 
+## PDF-documenten en werkbladen
+
+Gebruik de **Creality Hi Combo Schoolhandleiding** als referentie voor de vormgeving van 3Dindeklas-PDF’s. Die handleiding laat de gewenste combinatie zien: praktisch en rustig, met duidelijke hoofdstuknummers, scanbare instructies, bruikbare tabellen en veiligheidsinformatie die direct opvalt.
+
+De voorbeeld-PDF is een basis, geen keurslijf. Een werkblad krijgt meer schrijfruimte; een korte spiekkaart mag compacter. Houd in alle gevallen dezelfde merkherkenning, typografie en hiërarchie aan.
+
+### Paginaformaat en raster
+
+- Standaardformaat: A4 staand, 210 × 297 mm.
+- Gebruik circa 18 mm zijmarge. Houd boven en onder voldoende ruimte voor vaste kop- en voettekst.
+- Gebruik één hoofdtekstkolom voor uitleg. Gebruik tabellen alleen als ze informatie echt beter vergelijkbaar maken.
+- Werk met een eenvoudige afstandsschaal van 4, 8, 12, 16 en 24 pt. Herhaal tussen hoofdstukken, koppen, tekstblokken en tabellen dezelfde afstanden.
+- Laat hoofdstukbalk, inleiding en eerste onderdeel visueel van elkaar loskomen. Vermijd volle pagina’s zonder tussenruimte.
+- Plaats paginanummers en vaste gegevens op iedere vervolgpagina op dezelfde plek.
+
+### Koptekst, hoofdstukbalk en footer
+
+Gebruik de LayerBeacon-header als basis voor de bovenrand van handleidingen:
+
+- Paarse balk met het originele logo links en een smalle gele onderrand.
+- Naast het logo staat de documentnaam; daaronder eventueel printer/model en doelgroep.
+- Gebruik in de header circa 14 pt Bold voor de documentnaam en 8–9 pt voor de toelichting.
+- Open een hoofdstuk met een gele titelbalk en een ronde paarse nummerbadge. De hoofdstuktitel is kort, paars en duidelijk.
+- Gebruik een vaste footer met een dunne scheidingslijn, “3dindeklas · Leren door creëren”, documentversie of schooljaar en een paginanummer in een paarse cirkel.
+- Een korte handleiding heeft geen losse omslagpagina nodig. Begin op pagina 1 met een korte context en direct bruikbare inhoud.
+
+### Typografieschaal voor print
+
+Gebruik **Quicksand Medium (500)** voor gewone tekst en **Quicksand Bold (700)** voor nadruk, paginatitels en tussenkoppen. Embed de lettertypen in de PDF.
+
+| Rol | Richtmaat | Behandeling |
+| --- | --- | --- |
+| Documentnaam in koptekst | 14 pt Bold | Wit op paars |
+| Hoofdstuk- of paginatitel | 19–23 pt Bold | Paars op geel |
+| Tussenkop | 12–14 pt Bold | Donkerpaars |
+| Lopende tekst | 10–11 pt Medium | Inktkleur, regelafstand circa 1,4–1,55 |
+| Tabellen en korte callouts | 9–10 pt Medium | Gebruik 8,5 pt alleen voor korte labels |
+| Footer en bronvermelding | 8–9 pt Medium | Gedempt, maar nog leesbaar in print |
+
+Gebruik geen lange instructies in klein corps. Voor leerlingwerkbladen en materiaal voor jongere leerlingen is 11 pt of groter de voorkeur. Laat belangrijke handelingen beginnen met een vet werkwoord, maar zet niet hele alinea’s vet.
+
+### Kleur en informatiehiërarchie
+
+- Gebruik paars `#4C325B` voor de koptekst, hoofdstuknummers, tussenkoppen en tabelkoppen.
+- Gebruik geel `#FBBD30` voor de hoofdstukbalk en spaarzame aandachtspunten. Gebruik donkerpaarse tekst op geel.
+- Gebruik teal `#5AB3B1` voor fijne scheidingslijnen onder tabelkoppen en ondersteunende informatienotities.
+- Gebruik inkt `#261F2C` voor lopende tekst, licht `#F7F6F9` voor afwisselende tabelrijen en lijn `#E3DFE7` voor scheidingen.
+- Gebruik veiligheidsinformatie in een lichtgele of zachte waarschuwingskaart met een gele zijrand. Zet de waarschuwing bij de bijbehorende handeling.
+- Gebruik teal niet als kleine tekstkleur op wit. Kleur alleen mag nooit de enige status- of categorieverwijzing zijn.
+- Controleer het ontwerp ook in grijstinten. De inhoud moet leesbaar blijven op een gewone schoolprinter en bij kopiëren.
+
+### Vaste bouwstenen
+
+**Stappenplan.** Nummer stappen in de volgorde waarin ze uitgevoerd worden. Begin iedere stap met een korte, vetgedrukte handeling en geef daarna één of twee zinnen toelichting. Houd een stap bij één hoofdactie; splits een lange stap op.
+
+**Tabellen.** Gebruik een paarse koprij met witte tekst en een dunne teal onderrand. Wissel witte en lichtgrijze rijen af. Gebruik korte kolomkoppen en geef de inhoudskolommen de ruimte die ze nodig hebben. Voorkom dat een tabelrij over twee pagina’s breekt.
+
+**Notitie- en veiligheidskaarten.** Geef een kaart een korte, duidelijke titel en een gekleurde zijrand. Gebruik geel voor waarschuwing of veiligheid en teal voor praktische hulp of extra context. Houd tekst in de kaart kort.
+
+**Termen en bronnen.** Licht een technische term de eerste keer kort toe. Gebruik klikbare, beschrijvende links in digitale PDF’s. Zet volledige bronverwijzingen onderaan of in een eigen bronnenblok.
+
+### Werkbladen: ontwerp op de verwachte reactie
+
+Een goed werkblad vertelt de leerling wat die gaat maken of ontdekken, wat die leert en wat er van het antwoord wordt verwacht. Geef bij elke vraag precies de ruimte die het antwoord nodig heeft. Eén opdracht per genummerd blok maakt de pagina makkelijker te volgen.
+
+| Antwoordvorm | Startpunt voor ruimte | Vorm |
+| --- | --- | --- |
+| Aankruisen of kiezen | 4–6 mm per keuze, 8–12 mm tussen keuzes | Grote vakjes, één antwoord per regel, korte antwoordopties |
+| Kort antwoord | 2–3 schrijfregels, circa 20–30 mm hoog | Ruime lijnen; één korte vraag |
+| Uitleg of vergelijken | 4–6 schrijfregels, circa 40–60 mm hoog | Eén vraag tegelijk; geef eventueel een beginzin |
+| Schets, ontwerp of waarneming | Kader van circa 65–90 mm hoog | Blanco of licht raster, met labels voor maten of onderdelen |
+| Reflectie of exit-ticket | 2–3 regels per vraag | Concrete prompts zoals “Dit ging goed…” of “Dit wil ik nog proberen…” |
+
+Pas de ruimte aan het niveau en de leeftijd aan. Jonge leerlingen hebben grotere antwoordvakken, duidelijke keuzevakjes en ruimte om te tekenen nodig. Laat vragen niet onderaan een pagina staan met hun antwoordvak op de volgende pagina. Houd schrijflijnen licht maar zichtbaar; laat voldoende afstand voor handschrift.
+
+Naam-, groep- en datumvelden zijn nuttig als het werkblad wordt ingeleverd. Laat ze weg als ze geen doel hebben. Een voorbeeldantwoord kan helpen bij een nieuwe antwoordvorm, maar mag de eigen opdracht niet alvast oplossen.
+
+### Kies de opzet bij het document
+
+**Docent- of schoolhandleiding:** begin met doel, doelgroep en korte introductie. Zet benodigdheden, voorbereiding en uitvoering daarna in een logische volgorde. Maak rollen, toezicht en veiligheid expliciet. Plaats veelvoorkomende problemen en oplossingen bij elkaar.
+
+**Leerlingwerkblad:** begin met wat de leerling gaat maken en wat die gaat leren. Gebruik korte instructies en één taak per blok. Bied genoeg ruimte voor schrijven, meten, schetsen en reflecteren.
+
+**Spiekkaart of checklist:** beperk de pagina tot één onderwerp of taak. Gebruik korte labels, compacte stappen en herkenbare iconen met tekst. Geef informatie die alleen als naslag nodig is geen even groot gewicht als de hoofdtaak.
+
+### PDF exporteren en controleren
+
+- Embed Quicksand en exporteer tekst als selecteerbare tekst, niet als afbeelding. Houd hyperlinks actief als het document digitaal wordt gedeeld.
+- Gebruik afbeeldingen die scherp blijven op het uiteindelijke formaat; richtwaarde 300 dpi voor rasterbeelden. Volg voor professioneel drukwerk de specificaties van de drukker.
+- Controleer één pagina op ware grootte en print een zwart-witproef. Let op kleine tekst, contrast, tabelranden en ruimte om te schrijven.
+- Controleer dat kop- en voetteksten, paginanummers, versienummer en schooljaar overal kloppen.
+- Controleer paginaovergangen, afgebroken tabellen, losse koppen, lege pagina’s en antwoordvakken die niet bij hun vraag staan.
+- Maak waar mogelijk een doorzoekbare en toegankelijke PDF met logische koppen en alternatieve tekst voor betekenisvolle afbeeldingen.
+
 ## Marketing en communicatie
 
 Schrijf persoonlijk, menselijk en professioneel. Laat zien wat er in de klas gebeurt en waarom techniek betekenisvol is. Gebruik concrete voorbeelden en echte ervaringen. Houd claims nuchter; laat resultaten zien waar mogelijk, bijvoorbeeld wat leerlingen maakten of leerden.
@@ -130,7 +224,7 @@ Voordat je iets afrondt, controleer:
 - Werkt de belangrijkste interactie goed op telefoon of iPad?
 - Zijn knoppen groot genoeg en zijn statussen ook met woorden herkenbaar?
 - Zijn beelden, iconen en eventuele mascottes functioneel en netjes gebruikt?\n- Is het materiaal leesbaar en bedienbaar met voldoende contrast en zichtbare focus?\n- Past de toon bij 3Dindeklas: toegankelijk, praktisch, persoonlijk en professioneel?
-- Is de informatie bruikbaar voor de doelgroep waarvoor dit materiaal bedoeld is?
+- Heeft ieder PDF-onderdeel genoeg ruimte voor lezen, schrijven of tekenen?\n- Zijn pagina-overgangen, tabellen en vaste voettekst gecontroleerd op A4?\n- Is de informatie bruikbaar voor de doelgroep waarvoor dit materiaal bedoeld is?
 
 ## Gebruik in nieuwe projecten
 

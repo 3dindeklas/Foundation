@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="1188" viewBox="0 0 210 297" role="img" aria-labelledby="title desc">
+  <title id="title">Voorstel voor werkbladcomponenten van 3Dindeklas</title>
+  <desc id="desc">Ronde A B C keuzetekens voor één antwoord, vierkante afvinkvakjes, een invultabel met witte schrijfcellen en een blanco tekenvlak. De tekening is een componentenoverzicht en geen leerlingwerkblad op ware grootte.</desc>
+  <style>
+    text { font-family: Quicksand, 'DejaVu Sans', sans-serif; fill: #261f2c; font-size: 3.2px; font-weight: 500; }
+    .h { fill: #4c325b; font-weight: 700; font-size: 4.3px; }
+    .small { font-size: 2.8px; fill: #645c6b; }
+    .label { fill: #4c325b; font-weight: 700; }
+    .white { fill: white; }
+    .line { stroke: #e3dfe7; stroke-width: .22; }
+  </style>
+  <rect width="210" height="297" fill="white"/>
+  <rect x="18" y="10" width="174" height="22" fill="#4c325b"/>
+  <rect x="18" y="31" width="174" height="1" fill="#fbbd30"/>
+  <text x="24" y="18" class="white" style="font-size:3px">3Dindeklas Foundation</text>
+  <text x="24" y="25" class="white" style="font-size:5px;font-weight:700">Werkbladcomponenten</text>
+  <text x="18" y="40" class="small">VOORSTEL · 29 OKTOBER 2026 · COMPONENTENOVERZICHT</text>
+  <text x="18" y="51" class="h">01 Eén antwoord kiezen</text>
+  <text x="18" y="58">Bij grotere stappen ging het figuur door het beeld</text>
+  <text x="18" y="64" class="small">Kruis één antwoord aan.</text>
+  <g fill="white" stroke="#4c325b" stroke-width=".4">
+    <circle cx="21" cy="72" r="2.5"/><circle cx="21" cy="82" r="2.5"/><circle cx="21" cy="92" r="2.5"/>
+  </g>
+  <text x="28" y="73" class="label">A</text><text x="35" y="73">Sneller</text>
+  <text x="28" y="83" class="label">B</text><text x="35" y="83">Langzamer</text>
+  <text x="28" y="93" class="label">C</text><text x="35" y="93">Hetzelfde</text>
+  <text x="104" y="74" class="small">Open rondje 5 mm</text>
+  <text x="104" y="81" class="small">Eén optie per regel</text>
+  <text x="104" y="88" class="small">Letters buiten het keuzerondje</text>
+  <line x1="18" x2="192" y1="103" y2="103" class="line"/>
+  <text x="18" y="114" class="h">02 Meerdere punten afvinken</text>
+  <text x="18" y="121" class="small">Vink aan wat klaar is.</text>
+  <g fill="white" stroke="#4c325b" stroke-width=".4">
+    <rect x="18.5" y="126" width="5" height="5" rx=".35"/>
+    <rect x="18.5" y="136" width="5" height="5" rx=".35"/>
+  </g>
+  <text x="28" y="130">De iPad staat stevig.</text>
+  <text x="28" y="140">We hebben de film teruggekeken.</text>
+  <line x1="18" x2="192" y1="150" y2="150" class="line"/>
+  <text x="18" y="161" class="h">03 Invultabel</text>
+  <rect x="18" y="168" width="174" height="10" fill="#4c325b"/>
+  <text x="22" y="174.5" class="white">Deel</text>
+  <text x="72" y="174.5" class="white">Richtaantal</text>
+  <text x="133" y="174.5" class="white">Echt gemaakt</text>
+  <rect x="18" y="193" width="108" height="15" fill="#f7f6f9"/>
+  <rect x="18" y="178" width="174" height="30" fill="none" stroke="#e3dfe7" stroke-width=".22"/>
+  <path d="M18 193H192 M64 168V208 M126 168V208" fill="none" stroke="#e3dfe7" stroke-width=".22"/>
+  <line x1="18" x2="192" y1="178" y2="178" stroke="#5ab3b1" stroke-width=".5"/>
+  <text x="22" y="187">Begin</text><text x="88" y="187">20</text>
+  <text x="22" y="202">Probleem</text><text x="88" y="202">20</text>
+  <text x="18" y="215" class="small">Witte schrijfcellen · minimaal 15 mm rijhoogte · korte getallen gecentreerd</text>
+  <text x="18" y="229" class="h">04 Vrij tekenvlak</text>
+  <text x="18" y="236">Begin  Wie is waar en wat wil diegene?</text>
+  <rect x="18" y="241" width="174" height="31" fill="white" stroke="#9b949f" stroke-width=".18"/>
+  <text x="18" y="278" class="small">Blanco binnenruimte · 65–90 mm hoog op een werkblad · uitleg buiten het kader</text>
+  <text x="18" y="289" class="small">De voorbeelden zijn verkleind om de vier componenten naast elkaar te beoordelen.</text>
+</svg>

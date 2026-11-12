@@ -8,6 +8,7 @@ De centrale design- en contentreferentie voor digitale producten, lesmateriaal e
 - [Machineleesbare stijltokens (JSON)](https://raw.githubusercontent.com/3dindeklas/Foundation/main/brand.json)
 - [CSS-tokens](https://3dindeklas.github.io/Foundation/foundation.css)
 - [Volledige regels in Markdown](https://raw.githubusercontent.com/3dindeklas/Foundation/main/style-guide.md)
+- [PDF-kwaliteitscontrole voor lesmateriaal](docs/pdf-kwaliteitscontrole-lesmateriaal.md)
 
 De JSON en Markdown zijn direct als publieke bron beschikbaar. Voor de interactieve webpagina moet GitHub Pages eenmalig worden aangezet: open **Settings → Pages** in deze repository en kies **GitHub Actions** als bron bij **Build and deployment**. Daarna publiceert de workflow automatisch bij elke wijziging op `main`.
 
